@@ -1,5 +1,9 @@
 # ArgoCD Example Apps
 
+https://github.com/marcoliew/argocd-example-apps.git
+
+argocd app create gb_marco --repo https://github.com/marcoliew/argocd-example-apps.git --path guestbook --dest-server https://kubernetes.default.svc --dest-namespace marco
+
 This repository contains example applications for demoing ArgoCD functionality. Feel free
 to register this repository to your ArgoCD instance, or fork this repo and push your own commits
 to explore ArgoCD and GitOps!
